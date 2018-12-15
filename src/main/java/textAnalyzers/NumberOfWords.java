@@ -1,8 +1,9 @@
 package textAnalyzers;
 
 public class NumberOfWords implements Analyser {
-    @Override
-    public String analyze(String text) {
-        return null;
+
+    public Integer analyze(String text) {
+        int output = text.split(" ").length ;
+        return text.split(" ").length;
     }
 }
